@@ -1,0 +1,145 @@
+/* Landing NavHeaderStyle */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.Landing_background{
+    background-image: url("/Images/LandingPage(Background).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+
+.logo img{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    position: absolute;
+    width: 200px;
+} 
+.logo img:hover{
+    margin-left: 3rem;
+    position: absolute;
+    width: 250px;
+    transition: 0.3s;
+} 
+
+.header_links{
+    width: 100%;
+    margin: 4rem 0 0 20rem;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    position: relative;
+}
+
+.header_links ul li a{
+    color: rgb(215, 215, 215);
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: all ease 0.1s;
+}
+
+.header_links ul li a:hover{
+    color: white;
+    font-size: 17.5px;
+}
+
+/* NavDropdown List */
+.header_links ul .dropdownlinks{
+    display: block;
+    position: absolute;
+    width: 250px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0,.3);
+    margin-top: -50px;
+    opacity: 0;
+    z-index: -999;
+}
+
+.header_links ul li:hover .dropdownlinks{
+    z-index: 99;
+    opacity: 2;
+    margin-top: 0;
+}
+
+.header_links ul .dropdownlinks li{
+    margin: 0;
+    width: 100%;
+}
+
+.header_links ul .dropdownlinks li a{
+    padding: 15px 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+/* Landing BodyStyle */
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.content h1{
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.content p{
+    margin: 15px;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #2a574c;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+button span{
+    background: #2a574c;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
+}

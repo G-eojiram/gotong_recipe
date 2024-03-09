@@ -1,0 +1,1003 @@
+/* Recipes Styles */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Background-Image with Title */
+.topImage img{
+    width: 100%;
+    height: 100vh;
+}
+
+.topImage2 img{
+    width: 100%;
+}
+
+.ImgTitle h1{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.786);
+    font-size: 50px;
+    position: absolute;
+    top: 20rem;
+    color: white;
+}
+
+/* Defination of Word*/
+.defineWord{
+    padding: 4rem 5rem 4rem 5rem;
+}
+
+.defineWord h1{
+    position: absolute;
+    padding-left: 4rem;
+    font-size: 45px;
+}
+
+.decript-Img{
+    display: flex;
+}
+
+.decript-Img p{
+    padding-top: 6rem;
+    padding-left: 4rem;
+    padding-right: 1rem;
+    font-size: 20px;
+}
+
+.decript-Img img{
+    padding-left: 4rem;
+    width: 600px;
+}
+
+/* Featured Recipe */
+.featuredDish{
+    padding: 3rem 5rem 6rem 5rem;
+}
+
+.featuredDish h1{
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 4rem;
+}
+
+.img-featured-description{
+    align-items: center;
+    display: flex;
+}
+
+.img-featured-description img{
+    width: 700px;
+    padding-left: 5rem;
+}
+
+.img-featured-description p strong{
+    font-size: 40px;
+    padding-bottom: 2rem;
+}
+
+.img-featured-description p{
+    padding:0 5rem 0 3rem;
+    font-size: 20px;
+}
+
+/* Under Featured Recipe Image Hover Effect */
+.img-featured-description .hover_description{
+    width: 40.8%;
+    height: 48.7%;
+    margin-left: 5rem;
+    position: absolute;
+    background: rgba(7, 14, 11, 0.795);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+/* for stew */
+.img-featured-description1{
+    align-items: center;
+    display: flex;
+}
+
+.img-featured-description1 img{
+    width: 700px;
+    padding-left: 5rem;
+}
+
+.img-featured-description1 p strong{
+    font-size: 40px;
+    padding-bottom: 2rem;
+}
+
+.img-featured-description1 p{
+    padding:0 5rem 0 3rem;
+    font-size: 20px;
+}
+
+/* Under Featured Recipe Image Hover Effect */
+.img-featured-description1 .hover_description{
+    width: 40.8%;
+    height: 52.7%;
+    margin-left: 5rem;
+    position: absolute;
+    background: rgba(7, 14, 11, 0.795);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+/* 2 */
+.img-featured-description2{
+    padding-top: 5rem;
+    align-items: center;
+    display: flex;
+}
+
+.img-featured-description2 img{
+    width: 700px;
+    padding: 0 5rem 0 2rem;
+}
+
+.img-featured-description2 p strong{
+    font-size: 40px;
+    padding-bottom: 2rem;
+}
+
+.img-featured-description2 p{
+    padding: 2rem 0 2rem 5rem;
+    font-size: 20px;
+}
+
+/* Under Featured Recipe Image Hover Effect */
+.img-featured-description2 .hover_description{
+    width: 38.7%;
+    height: 51%;
+    margin-left: 43.2rem;
+    position: absolute;
+    background: rgba(7, 14, 11, 0.795);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+/* 3 for soup */
+.img-featured-description3{
+    align-items: center;
+    display: flex;
+}
+
+.img-featured-description3 img{
+    width: 700px;
+    padding-left: 5rem;
+}
+
+.img-featured-description3 p strong{
+    font-size: 40px;
+    padding-bottom: 2rem;
+}
+
+.img-featured-description3 p{
+    padding:0 5rem 0 3rem;
+    font-size: 20px;
+}
+
+/* Under Featured Recipe Image Hover Effect */
+.img-featured-description3 .hover_description{
+    width: 40.8%;
+    height: 50.8%;
+    margin-left: 5rem;
+    position: absolute;
+    background: rgba(7, 14, 11, 0.795);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+/* for dessert */
+.img-featured-description4{
+    align-items: center;
+    display: flex;
+}
+
+.img-featured-description4 img{
+    width: 650px;
+    padding-left: 5rem;
+}
+
+.img-featured-description4 p strong{
+    font-size: 40px;
+    padding-bottom: 2rem;
+}
+
+.img-featured-description4 p{
+    padding:0 5rem 0 3rem;
+    font-size: 20px;
+}
+
+/* Under Featured Recipe Image Hover Effect */
+.img-featured-description4 .hover_description{
+    width: 37.5%;
+    height: 51.7%;
+    margin-left: 5rem;
+    position: absolute;
+    background: rgba(7, 14, 11, 0.795);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.hover_description a{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.hover_description:hover{
+    opacity: 1;
+}
+
+/* all styles */
+.Ingredients{
+    padding: 0 10rem 1rem 10rem;
+}
+
+.Ingredients h1{
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    font-size: 35px;
+}
+
+.ingredientsContainer{
+    background-color: rgb(242, 237, 237);    
+    border: solid 1px;
+    width: 70%;
+    margin: auto;
+}
+
+.ingredientsContainer h2{
+    padding-top: 3rem;
+    font-size: 30px;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.ingredientsContainer ul{
+    font-size: 20px;
+    padding: 2rem 0 5rem 10.5rem;
+}
+
+.ingredientsContainer li{
+    padding-left: 1rem;
+    padding-bottom: 1rem;   
+}
+
+.Define{
+    padding: 5rem 10rem 5rem 10rem;
+}
+
+.Define h1{
+    font-size: 45px;
+}
+
+.Define p{
+    padding: 2rem 5rem 0 4rem;
+    font-size: 25px;
+}
+
+/* Pork Adobo Steps Styles */
+.AdoboProcedure{
+    margin: 90px auto;
+    width: 1000px;
+    border-left: 2px solid black;
+    padding: 0 20px 0 30px;
+}
+
+.AdoboProcedure .step1{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+.AdoboProcedure .step2{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.AdoboProcedure .step3{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 170px;
+    margin-bottom: 20px;
+} 
+
+.AdoboProcedure .step4{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+.AdoboProcedure .step5{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.AdoboProcedure .step6{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+.AdoboProcedure .step7{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+.AdoboProcedure .step8{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+.AdoboProcedure div:before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid black;
+    position: absolute;
+    top: 25px;
+    left: -43px;
+}
+
+.AdoboProcedure div:after{
+    content: '';
+    width: 0;
+    height: 3rem;
+    border-style: solid;
+    border-color: transparent #181b1aec transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    left: -17px;
+    top: 10px;
+}
+
+/* Adjusting text padding */
+.AdoboProcedure h1{
+    padding-bottom: 2rem;
+    font-size: 35px;
+}
+
+.AdoboProcedure h2{
+    padding: 1rem 0 .5rem 2rem;
+}
+
+.AdoboProcedure p{
+    padding: 0 5rem .5rem 3rem;
+}
+
+.AdoboProcedure ul{
+    padding: .5rem 5rem .5rem 5rem;
+}
+
+/* Note */
+.Adobo-Note{
+    background-color: rgba(218, 227, 223, 0.733);
+    border: 2px solid black;
+    margin: 2rem 10rem 2rem 10rem;
+    padding: 2rem 5rem 1rem 5rem;
+}
+
+.Adobo-Note b{
+    font-size: 25px;
+}
+
+.Adobo-Note p{
+    font-size: 20px;
+    padding: 1rem 3rem 2rem 3rem;
+}
+
+.Adobo-Note p b{
+    font-size: 20px;
+}
+
+/* Pork Mechado Steps Styles */
+.MechadoProcedure{
+    margin: 90px auto;
+    width: 1000px;
+    border-left: 2px solid black;
+    padding: 0 20px 0 30px;
+}
+
+.MechadoProcedure .step1{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 210px;
+    margin-bottom: 20px;
+}
+
+.MechadoProcedure .step2{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.MechadoProcedure .step3{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 135px;
+    margin-bottom: 20px;
+} 
+
+.MechadoProcedure .step4{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 240px;
+    margin-bottom: 20px;
+}
+
+.MechadoProcedure .step5{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 135px;
+    margin-bottom: 20px;
+}
+
+.MechadoProcedure div:before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid black;
+    position: absolute;
+    top: 25px;
+    left: -43px;
+}
+
+.MechadoProcedure div:after{
+    content: '';
+    width: 0;
+    height: 3rem;
+    border-style: solid;
+    border-color: transparent #181b1aec transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    left: -17px;
+    top: 10px;
+}
+
+/* Adjusting text padding */
+.MechadoProcedure h1{
+    padding-bottom: 2rem;
+    font-size: 35px;
+}
+
+.MechadoProcedure h2{
+    padding: 1rem 0 .5rem 2rem;
+}
+
+.MechadoProcedure p{
+    padding: 0 5rem .5rem 3rem;
+}
+
+.MechadoProcedure ul{
+    padding: .5rem 5rem .5rem 5rem;
+}
+
+/* Note */
+.Mechado-Note{
+    background-color: rgba(40, 54, 48, 0.733);
+    border: 2px solid black;
+    margin: 2rem 10rem 2rem 10rem;
+    padding: 2rem 5rem 1rem 5rem;
+}
+
+.Mechado-Note b{
+    font-size: 25px;
+}
+
+.Mechado-Note ul{
+    font-size: 20px;
+    padding: 1rem 3rem 2rem 3rem;
+}
+
+
+/* Beef Kare-Kare Steps Styles */
+.Kare-KareProcedure{
+    margin: 90px auto;
+    width: 1000px;
+    border-left: 2px solid black;
+    padding: 0 20px 0 30px;
+}
+
+.Kare-KareProcedure .step1{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 155px;
+    margin-bottom: 20px;
+}
+
+.Kare-KareProcedure .step2{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 170px;
+    margin-bottom: 20px;
+}
+
+.Kare-KareProcedure .step3{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 150px;
+    margin-bottom: 20px;
+} 
+
+.Kare-KareProcedure .step4{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 170px;
+    margin-bottom: 20px;
+}
+
+.Kare-KareProcedure .step5{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 255px;
+    margin-bottom: 20px;
+}
+
+.Kare-KareProcedure .step6{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.Kare-KareProcedure .step7{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.Kare-KareProcedure div:before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid black;
+    position: absolute;
+    top: 25px;
+    left: -43px;
+}
+
+.Kare-KareProcedure div:after{
+    content: '';
+    width: 0;
+    height: 3rem;
+    border-style: solid;
+    border-color: transparent #181b1aec transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    left: -17px;
+    top: 10px;
+}
+
+/* Adjusting text padding */
+.Kare-KareProcedure h1{
+    padding-bottom: 2rem;
+    font-size: 35px;
+}
+
+.Kare-KareProcedure h2{
+    padding: 1rem 0 .5rem 2rem;
+}
+
+.Kare-KareProcedure p{
+    padding: 0 5rem .5rem 3rem;
+}
+
+.Kare-KareProcedure ul{
+    padding: .5rem 5rem .5rem 5rem;
+}
+
+/* Note */
+.Kare-Kare-Note{
+    background-color: rgba(218, 227, 223, 0.733);
+    border: 2px solid black;
+    margin: 2rem 10rem 2rem 10rem;
+    padding: 2rem 5rem 1rem 5rem;
+}
+
+.Kare-Kare-Note b{
+    font-size: 25px;
+}
+
+.Kare-Kare-Note ul{
+    font-size: 20px;
+    padding: 1rem 3rem 2rem 3rem;
+}
+
+/* Pork Sinigang Steps Styles */
+.SinigangProcedure{
+    margin: 90px auto;
+    width: 1000px;
+    border-left: 2px solid black;
+    padding: 0 20px 0 30px;
+}
+
+.SinigangProcedure .step{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.SinigangProcedure .step6{
+    background-color: white;
+    padding: 1rem 5rem 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+.SinigangProcedure .step8{
+    background-color: white;
+    padding: 1rem 5rem 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+.SinigangProcedure .step9{
+    background-color: white;
+    padding: 1rem 5rem 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 130px;
+    margin-bottom: 20px;
+} 
+
+.SinigangProcedure div:before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid black;
+    position: absolute;
+    top: 25px;
+    left: -43px;
+}
+
+.SinigangProcedure div:after{
+    content: '';
+    width: 0;
+    height: 3rem;
+    border-style: solid;
+    border-color: transparent #181b1aec transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    left: -17px;
+    top: 10px;
+}
+
+/* Adjusting text padding */
+.SinigangProcedure h1{
+    padding-bottom: 2rem;
+    font-size: 35px;
+}
+
+.SinigangProcedure h2{
+    padding: 1rem 0 .5rem 2rem;
+}
+
+.SinigangProcedure p{
+    padding: 0 5rem .5rem 3rem;
+}
+
+.SinigangProcedure ul{
+    padding: .5rem 5rem .5rem 5rem;
+}
+
+/* Note */
+.Sinigang-Note{
+    background-color: rgba(218, 227, 223, 0.733);
+    border: 2px solid black;
+    margin: 2rem 10rem 2rem 10rem;
+    padding: 2rem 5rem 1rem 5rem;
+}
+
+.Sinigang-Note b{
+    font-size: 25px;
+}
+
+.Sinigang-Note ul{
+    font-size: 20px;
+    padding: 1rem 3rem 2rem 3rem;
+}
+
+
+/* Biko Steps Styles */
+.BikoProcedure{
+    margin: 90px auto;
+    width: 1000px;
+    border-left: 2px solid black;
+    padding: 0 20px 0 30px;
+}
+
+.BikoProcedure .step1{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+.BikoProcedure .step2{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 170px;
+    margin-bottom: 20px;
+}
+
+.BikoProcedure .step3{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 160px;
+    margin-bottom: 20px;
+} 
+
+.BikoProcedure .step4{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+.BikoProcedure .step5{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+.BikoProcedure .step6{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 280px;
+    margin-bottom: 20px;
+}
+
+.BikoProcedure .step7{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+.BikoProcedure .step8{
+    background-color: white;
+    padding: 1rem 0 2rem 2rem;
+    font-size: 16px;
+    border: 1px solid;
+    line-height: 1.2;
+    position: relative;
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+.BikoProcedure div:before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid black;
+    position: absolute;
+    top: 25px;
+    left: -43px;
+}
+
+.BikoProcedure div:after{
+    content: '';
+    width: 0;
+    height: 3rem;
+    border-style: solid;
+    border-color: transparent #181b1aec transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    left: -17px;
+    top: 10px;
+}
+
+/* Adjusting text padding */
+.BikoProcedure h1{
+    padding-bottom: 2rem;
+    font-size: 35px;
+}
+
+.BikoProcedure h2{
+    padding: 1rem 0 .5rem 2rem;
+}
+
+.BikoProcedure p{
+    padding: 0 5rem .5rem 3rem;
+}
+
+.BikoProcedure ul{
+    padding: .5rem 5rem .5rem 5rem;
+}
+
+.abtUs{
+    margin: 0;
+    padding: 6rem 5rem 2rem 6rem;
+    display: flex;
+}
+
+.abtUs h1{
+    top: 13rem;
+    padding-left: 15rem;
+    font-size: 60px;
+    position: absolute;
+}
+
+.abtUs p{
+    padding: 12rem 1rem 0 2rem;
+    font-size: 25px;
+}
